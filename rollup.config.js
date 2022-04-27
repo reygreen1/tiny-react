@@ -8,7 +8,7 @@ import serve from 'rollup-plugin-serve'
 import livereload from 'rollup-plugin-livereload'
 import sourcemaps from 'rollup-plugin-sourcemaps'
 
-const isProd = process.env.NODE_ENV === 'development'
+const isProd = process.env.NODE_ENV === 'production'
 const extensions = ['.js', '.ts', '.tsx']
 
 export default {
